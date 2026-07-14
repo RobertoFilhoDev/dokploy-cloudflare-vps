@@ -441,7 +441,7 @@ ingress:
   - hostname: app.yourdomain.com  
     service: http://localhost:8080
 
-  - service: http\_status:404  
+  - service: http_status:404  
 ```
 Pros:
 
@@ -485,9 +485,9 @@ graph TD
 Example configuration:
 
 ``` yaml
-tunnel: 4c84271b-4264-421c-8096-a900fb415534
+tunnel: YOUR-TUNNEL-ID
 
-credentials-file: /etc/cloudflared/4c84271b-4264-421c-8096-a900fb415534.json
+credentials-file: /etc/cloudflared/YOUR-TUNNEL-ID.json
 
 ingress:
   - hostname: "*.ollama-serve.shop"
